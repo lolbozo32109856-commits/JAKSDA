@@ -31,12 +31,12 @@
 
 # Download Image; replace link to $image to add your own image
 
-$image =  "https://i0.wp.com/securenews.ru/wp-content/uploads/2017/02/hacked.jpg"
+$image =  "https://www.bbc.co.uk/staticarchive/71b6b5e03f40e4f5466d251fb681630bd5e4e927.jpg"
 
 $i = -join($image,"?dl=1")
 iwr $i -O $env:TMP\i.png
 
-iwr https://i0.wp.com/securenews.ru/wp-content/uploads/2017/02/hacked.jpg?dl=1 -O $env:TMP\i.png
+iwr https://www.bbc.co.uk/staticarchive/71b6b5e03f40e4f5466d251fb681630bd5e4e927.jpg?dl=1 -O $env:TMP\i.png
 
 # Download WAV file; replace link to $wav to add your own sound
 
